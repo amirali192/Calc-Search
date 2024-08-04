@@ -22,9 +22,9 @@ console.log("=======================")
 console.log("Search (EXIST OR DOES NOT EXIST) Project")
 let string = "cheeseBorgor", target = "cheese"
 if (string.includes(target) == true) {
-    console.log("found!")
+    console.log(target, "was found!")
 }
 else {
-    console.log("NO!")
+    console.log(target, "was not found!")
 }
 
