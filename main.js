@@ -1,25 +1,22 @@
 // CALCULATOR
 // Input
-let num1 = 12, num2 = 6;
+let clac = 0, num1 = 12, num2 = 6;
 // Output :
 console.log("Calculator Project")
-// Sum
-console.log("Sum =", num1 + num2)
-// Subtraction
-console.log("Subtraction =", num1 - num2)
-// Multiplication
-console.log("Multiplication =", num1 * num2)
-// Division
-console.log("Division =", num1 / num2)
-// Remainder
-console.log("Remainder =", num1 % num2)
-// End of calulator
+calc = num1 + num2
+console.log("Sum", calc)
+calc = num1 - num2
+console.log("Subtraction =", calc)
+calc = num1 * num2
+console.log("Multiplication =", calc)
+calc = num1 / num2
+console.log("Division =", calc)
+calc = num1 % num2
+console.log("Remainder =", calc)
 console.log("=======================")
-
-// -----------------------------------------
-
 // Search (EXIST OR DOES NOT EXIST)
 console.log("Search (EXIST OR DOES NOT EXIST) Project")
+// using the include method we can see if target is inside the string or not
 let string = "cheeseBorgor", target = "cheese"
 if (string.includes(target) == true) {
     console.log(target, "was found!")
@@ -36,4 +33,3 @@ if (string2.includes(target2) == true) {
 else {
     console.log(target2, "was not found!")
 }
-
