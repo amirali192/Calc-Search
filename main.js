@@ -16,7 +16,7 @@ console.log("Remainder =", num1 % num2)
 // End of calulator
 console.log("=======================")
 
-
+// -----------------------------------------
 
 // Search (EXIST OR DOES NOT EXIST)
 console.log("Search (EXIST OR DOES NOT EXIST) Project")
@@ -26,5 +26,14 @@ if (string.includes(target) == true) {
 }
 else {
     console.log(target, "was not found!")
+}
+// If it was false
+console.log("if it was false =")
+let string2 = "cheeseBorgor", target2 = "pickles"
+if (string2.includes(target2) == true) {
+    console.log(target2, "was found!")
+}
+else {
+    console.log(target2, "was not found!")
 }
 
